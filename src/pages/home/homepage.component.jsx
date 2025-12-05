@@ -4,8 +4,10 @@ import Directory from "../../components/directory/directory.component";
 
 
 
-export const Homepage = () => (
+const Homepage = () => (
     <div className="homepage">
         <Directory />
     </div>
 );
+
+export default Homepage;
