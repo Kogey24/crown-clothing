@@ -3,11 +3,6 @@ import './collection-item.styles.scss';
 
 
 const CollectionItems = ({ id, name, imageUrl, price }) => {
-    console.log(imageUrl);
-    console.log(id);
-    console.log(name);
-    console.log(price);
-
     return (
         <div className="collection-item" key={id}>
             <div
